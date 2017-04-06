@@ -161,9 +161,12 @@ class Home extends Component {
                             isError={this.state.isError}
                             errorMessage={this.state.errorMessage}/>
                     </div>
+                    <button className="button2" id="home-botao1">CONTRATE UM FREELANCER</button>
+                    <button className="button2" id="home-botao2">COMO FUNCIONA ?</button>
+                    <button className="button2" id="home-botao3">SEJA UM FREELANCER</button>
                 </div>
                 <div id="whoWeAre" className="container2">
-                    <h3>JUNTA-SE A OUTROS FREELANCERS, FAÇA PROJETOS EM CONJUNTO!</h3>
+                    <h3>JUNTA-SE A OUTROS <span id="home-title1">FREELANCERS</span>, FAÇA PROJETOS EM <span id="home-title2">CONJUNTO!</span></h3>
                     <div id="servicos">
                         <div className="row">
                             <div className="col s12 m4 item-service left-service">
