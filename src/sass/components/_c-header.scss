@@ -1,0 +1,119 @@
+$headerHeight: 550px;
+$topHeaderHeight: 35px;
+$logoAndMenuContainerHeight: 60px;
+
+#show-all-ebooks {
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 15px;
+}
+
+.min-header-main-screen {
+  min-height: $headerHeight;
+}
+
+#header {
+  width: 100%;
+  padding-bottom: 15px;
+
+  background-image: url('../../public/images/backgroudhome.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+
+  #top-header {
+    width: 100%;
+    height: $topHeaderHeight;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #logoAndMenuContainer {
+    width: 100%;
+    //width: 1280px;
+    height: 85px;
+    //height: $logoAndMenuContainerHeight;
+
+    background-color: rgb(125, 11, 20);
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 600px) {
+      display: flex;
+      justify-content: center;
+    }
+
+    #logo-name{
+      color: rgb(196, 196, 203);
+      margin-left: 5px;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    #input-freela{
+      background-color: rgb(220, 220, 220);
+      margin-left: 50px;
+    }
+
+    #menu {
+      margin-right: 20px;
+      display: flex;
+      .menu-item {
+        margin-left: 30px;
+        a {
+          margin-left: 10px;
+          color: white;
+          text-transform: uppercase;
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+          font-weight: 700;
+
+          &:hover {
+            color: #82bc00;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  #banner {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      font-family: 'Lato', 'Work Sans', sans-serif;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      margin: 0;
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
