@@ -1,7 +1,7 @@
 #c-footer {
   width: 100%;
   height: 140px;
-  background-color: #fff;
+  background-color: #c6c6c6;
   border-top: 1px solid #E8E8E8;
   color: #7e8890;
 
@@ -14,10 +14,42 @@
     align-items: center;
   }
 
-  .facebook {
+  .fastdezine {
     height: 90px;
     position: relative;
     margin-right: 20px;
   }
 
+  .apple {
+    bottom: 20px;
+    height: 40px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .googleplay{
+    top : 20px;
+    left: -147px;
+    height: 51px;
+    position: relative;
+    margin-right: 20px;
+  }
+  .store p {
+    max-width: 500px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.375;
+    color: #000;
+  }
+
+  .row{
+    margin-left: 270px;
+    color: #000;
+  }
+
+  #footer-text{
+    margin-left: 20px;
+  }
 }

@@ -1,10 +1,12 @@
 #whoWeAre {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 
   h3 {
+    margin-top: 30px;
     font-weight: 700;
+    font-size: 32px;
     color: #C4C4CB;
 
     #home-title1{
@@ -34,7 +36,6 @@
     @media (max-width: 600px) {
       margin-top: 50px;
     }
-
     img {
       margin-bottom: 10px;
     }
@@ -51,35 +52,12 @@
       padding-left: 50px;
     }
   }
-    .promotion {
-      color: red;
-      margin-top:0;
-      font-size:0.8em;
-    }
-
-
-    .new-price {
-      margin-bottom:0;
-    }
-
 
   #servicos {
-    margin-top: 120px;
-
-    .old-price {
-      color: #af0808;
-      margin-bottom: 0;
-    }
+    margin-top: 60px;
     .row {
       margin-bottom: 0;
+      display: flex;
     }
-
-    #price {
-      margin-top: 60px;
-    }
-  }
-
-  #redator {
-    margin-top: 120px;
   }
 }
