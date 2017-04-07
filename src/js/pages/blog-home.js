@@ -151,15 +151,6 @@ class Home extends Component {
                 <div id="header" className="min-header-main-screen">
                     <div className="container">
                         <LogoAndMenu />
-                        <BannerHeader
-                            onInputUserNameChange={this.onInputUserNameChange.bind(this)}
-                            onInputEmailChange={this.onInputEmailChange.bind(this)}
-                            onSubmitForm={this.submitForm.bind(this)}
-                            emailValue={this.state.userEmail}
-                            userNameValue={this.state.userName}
-                            isLoading={this.state.isLoading}
-                            isError={this.state.isError}
-                            errorMessage={this.state.errorMessage}/>
                     </div>
                     <button className="button2" id="home-botao1">CONTRATE UM FREELANCER</button>
                     <button className="button2" id="home-botao2">COMO FUNCIONA ?</button>
@@ -169,29 +160,17 @@ class Home extends Component {
                     <h3>JUNTA-SE A OUTROS <span id="home-title1">FREELANCERS</span>, FAÇA PROJETOS EM <span id="home-title2">CONJUNTO!</span></h3>
                     <div id="servicos">
                         <div className="row">
-                            <div className="col s12 m4 item-service left-service">
-                                <img src="images/icones_servicos-03.svg" height='120px' />
-                                <div className="row">
-                                    <a href="https://rockinhoud.wordpress.com/" target="_blank">
-                                        <strong> Veja como poderá ser seu blog</strong>
-                                    </a>
-                                </div>
+                            <div className="col s12 m4 item-service">
+                                <a href="#" target="_blank"><img src="images/logotipo.jpg" height='190px'/></a>
                             </div>
                             <div className="col s12 m4 item-service">
-                                <img src="images/icones_servicos-02.svg" height='120px' />
-                                <div className="row">
-                                    <a href="#" target="_blank">
-                                        <strong> Veja o preview do guia</strong>
-                                    </a>
-                                </div>
+                                <a href="#" target="_blank"><img src="images/website.jpg" height='190px'/></a>
                             </div>
-                            <div className="col s12 m4 item-service right-service">
-                                <img src="images/icones_servicos-01.svg" height='120px' />
-                                <div className="row">
-                                    <a href="#" target="_blank">
-                                        <strong> Veja um modelo de cronograma</strong>
-                                    </a>
-                                </div>
+                            <div className="col s12 m4 item-service">
+                                <a href="#" target="_blank"><img src="images/video.jpg" height='190px'/></a>
+                            </div>
+                            <div className="col s12 m4 item-service">
+                                <a href="#" target="_blank"><img src="images/programacao.jpg" height='190px'/></a>
                             </div>
                         </div>
                     </div>
