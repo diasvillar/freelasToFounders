@@ -16,6 +16,31 @@
       color: #C57C05;
     }
   }
+  
+  .button2 {
+        padding: 6px 22px;
+        border-radius: 4px;
+        opacity: 0.8;
+        position: relative;
+        bottom: -50px;
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 24px;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        height: 40px;
+        width: 330px;
+        min-width: 120px;
+        max-width: 400px;
+  }
+  
+  #home-botao4{
+    color: #000;
+    background-color: #C57C05;
+    border: 2px solid #C57C05;
+  }
 
   p {
     margin-left: auto;

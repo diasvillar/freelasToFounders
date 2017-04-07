@@ -173,6 +173,7 @@ class Home extends Component {
                                 <a href="#" target="_blank"><img src="images/programacao.jpg" height='190px'/></a>
                             </div>
                         </div>
+						<button className="button2" id="home-botao4">Todas as Categorias</button>
                     </div>
                 </div>
                 <Footer/>

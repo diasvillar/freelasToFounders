@@ -28,9 +28,9 @@ $logoAndMenuContainerHeight: 60px;
   .button2 {
         padding: 6px 22px;
         border-radius: 4px;
-        opacity: 1.0;
+        opacity: 0.8;
         position: relative;
-        bottom: -400px;
+        bottom: -435px;
         font-size: 19px;
         font-size: 1.1875rem;
         line-height: 24px;
@@ -38,8 +38,8 @@ $logoAndMenuContainerHeight: 60px;
         cursor: pointer;
         text-align: center;
         outline: none;
-        height: 70px;
-        width: 350px;
+        height: 40px;
+        width: 330px;
         min-width: 120px;
         max-width: 400px;
   }
@@ -48,21 +48,28 @@ $logoAndMenuContainerHeight: 60px;
     color: #e3e3e3;
     background-color: #7f0511;
     border: 2px solid #7f0511;
-    left: 200px;
+    left: 100px;
   }
 
   #home-botao2{
     color: #7f0511;
     background-color: #C4C4CB;
     border: 2px solid #C4C4CB;
-    left: 285px;
+    left: 185px;
   }
 
   #home-botao3{
-    color: #000000;
+    color: #7f0511;
     background-color: #C57C05;
     border: 2px solid #C57C05;
-    left: 370px;
+    left: 270px;
+  }
+  
+  #home-botao4{
+    color: #7f0511;
+    background-color: #C57C05;
+    border: 2px solid #C57C05;
+    left: 270px;
   }
 
   #top-header {
@@ -83,7 +90,7 @@ $logoAndMenuContainerHeight: 60px;
   #logoAndMenuContainer {
     width: 100%;
     //width: 1280px;
-    height: 85px;
+    height: 65px;
     //height: $logoAndMenuContainerHeight;
     opacity: 0.9;
     background-color: rgb(125, 11, 20);

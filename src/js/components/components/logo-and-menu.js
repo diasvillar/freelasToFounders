@@ -7,7 +7,7 @@ class LogoAndMenu extends Component {
         return (
             <div id="logoAndMenuContainer">
                 <a onClick={goToHome.bind(this)}>
-                    <img src="LOGOFF.png" height='70px'/>
+                    <img src="LOGOFF.png" height='50px'/>
                       <tag id="logo-name">FREELAS TO FOUNDERS</tag>
                 </a>
                 <div>
